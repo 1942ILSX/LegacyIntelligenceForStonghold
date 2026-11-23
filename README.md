@@ -29,6 +29,25 @@ node stage-5/play.mjs --seed 1562147249 --band auto --threads 4
 | `--threads N` | 每局可用 1～4 个预演工作线程，验收配置为 4。 |
 | `--trace --output games.jsonl` | 将逐步操作与结果写入新文件或空文件。 |
 
+## 接入自己的引擎
+
+`play.mjs` 已经接好了包内引擎。如果你手里另有一份 Stronghold-Protocol，希望用它来裁决正式对局，请使用 [play-with-engine.mjs](play-with-engine.mjs)。已验证的组合是上游 **v0.4.0**、规则 `act3autochess@V3_1`、单人 `mode_single_20`，以及 Node.js 24.22.3。[上游引擎版本](https://github.com/sganggs/Stronghold-Protocol/tree/v0.4.0)
+
+在 **AI 仓库根目录**执行以下命令。如果已有 v0.4.0 引擎，可跳过第一行，直接将 `--engine` 指向引擎根目录。该目录下应直接包含 `package.json`、`server/match/Match.js` 和 `data/versions/act3autochess-v3_1/`。
+
+```sh
+git clone --depth 1 --branch v0.4.0 https://github.com/sganggs/Stronghold-Protocol.git ../Stronghold-Protocol
+node play-with-engine.mjs --engine "../Stronghold-Protocol" --seed 1562147249 --band auto --threads 4 --trace --output engine-game.jsonl
+```
+
+Windows 绝对路径也可以写成 `--engine "D:/Games/Stronghold-Protocol"`。如果使用独立 ZIP，请从[发布页](https://github.com/1942ILSX/LegacyIntelligenceForStonghold/releases/tag/stage-5)另下载同名附件 `play-with-engine.mjs`，放在解压后的 `play.mjs` 旁边，再执行第二行。重复测试时请为 `--output` 换一个新文件名。
+
+**确认接入成功。** 打开结果 JSONL，检查 `independent: true`、`human: true`、`autoplay: false` 和 `errors: 0`。`history` 记录购买、移动、就绪等指令及引擎回执。`parallelStats` 记录布阵预演，抵达第 14 回合的对局还可查看 `terminalGeometry`。上面的种子在上游 v0.4.0 实测完成了 14 次就绪，终局预演完成 4/4 个方案，正式结算为通关。
+
+**调用链。** 启动器在本地进程中用外部引擎创建一场新的 `Match`，由服务器结算战斗。玩家占一个 `isBot: false` 的普通席位。在需要操作的阶段，运行器读取公共局面和本席位视图，交给 `player.decide(need, snapshot)`。普通指令送入 `match.handle(playerId, msg)`，布阵请求先经预演筛选，再拆成一系列 `g.move`。运行器将指令结果交给 `player.ack(status)`，在下一步重新读取局面。四个预演线程使用 AI 包内冻结的 v0.4.0 规则，正式胜负由 `--engine` 指定的引擎决定；修改外部战斗规则后，两边的预测可能出现偏差。[完整运行器入口](stage-5/players/win80-combat/road-and-boss-student-mux-referee.mjs) · [席位与阶段循环](stage-5/players/solo-40-portfolio-c/referee.mjs) · [移动指令执行](stage-5/players/solo-40-portfolio-c/formation.mjs)
+
+此入口用于本地单人无界面对局。浏览器房间、已在运行的服务器和大厅内置 bot 菜单使用单独的接入接口。上游开发源码的可选 external-LLM 模块由启动器在本进程切换到发布版关闭状态，无需修改上游文件或设置 `SP_BOT_STRATEGY`。
+
 ## 玩家怎样决策
 
 - **开局。** 读取公开的 Boss、地图、可选盟约与禁用项，选出合法策略，并绑定相应经营路线。
