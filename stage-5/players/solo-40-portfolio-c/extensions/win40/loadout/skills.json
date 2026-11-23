@@ -1,0 +1,95 @@
+{
+  "chess_char_1_02_a": {
+    "skill": 1
+  },
+  "chess_char_1_03_a": {
+    "skill": 1
+  },
+  "chess_char_1_17_a": {
+    "skill": 1
+  },
+  "chess_char_2_05_a": {
+    "skill": 0
+  },
+  "chess_char_2_08_a": {
+    "skill": 0
+  },
+  "chess_char_2_10_a": {
+    "skill": 0
+  },
+  "chess_char_2_21_a": {
+    "skill": 0
+  },
+  "chess_char_2_24_a": {
+    "skill": 1
+  },
+  "chess_char_3_02_a": {
+    "skill": 1
+  },
+  "chess_char_3_18_a": {
+    "skill": 0
+  },
+  "chess_char_3_22_a": {
+    "skill": 0
+  },
+  "chess_char_3_26_a": {
+    "skill": 0
+  },
+  "chess_char_4_01_a": {
+    "skill": 2
+  },
+  "chess_char_4_06_a": {
+    "skill": 1
+  },
+  "chess_char_4_07_a": {
+    "skill": 1
+  },
+  "chess_char_4_08_a": {
+    "skill": 0
+  },
+  "chess_char_4_10_a": {
+    "skill": 2
+  },
+  "chess_char_4_11_a": {
+    "skill": 0
+  },
+  "chess_char_4_12_a": {
+    "skill": 2
+  },
+  "chess_char_4_14_a": {
+    "skill": 1
+  },
+  "chess_char_4_17_a": {
+    "skill": 0
+  },
+  "chess_char_4_23_a": {
+    "skill": 0
+  },
+  "chess_char_4_25_a": {
+    "skill": 0
+  },
+  "chess_char_5_02_a": {
+    "skill": 2
+  },
+  "chess_char_5_05_a": {
+    "skill": 1
+  },
+  "chess_char_5_20_a": {
+    "skill": 1
+  },
+  "chess_char_6_01_a": {
+    "skill": 2
+  },
+  "chess_char_6_10_a": {
+    "skill": 2
+  },
+  "chess_char_6_11_a": {
+    "skill": 2
+  },
+  "chess_char_6_12_a": {
+    "skill": 1
+  },
+  "chess_char_6_19_a": {
+    "skill": 0
+  }
+}

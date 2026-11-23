@@ -1,0 +1,26 @@
+{
+  "band": "auto",
+  "focus": "lethaniaShip",
+  "arcane": 2.0,
+  "shopFocus": 0.9,
+  "learnField": 6,
+  "search": {
+    "normal": {
+      "mutations": 1,
+      "confirm": 0
+    },
+    "boss": {
+      "mutations": 10,
+      "confirm": 3
+    }
+  },
+  "gear": 0.65,
+  "useSkills": true,
+  "focusStrength": 1.15,
+  "routeOrder": [
+    "lethaniaShip",
+    "ursusShip",
+    "yanShip",
+    "kjeragShip"
+  ]
+}

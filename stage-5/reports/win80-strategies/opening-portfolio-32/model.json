@@ -1,0 +1,262 @@
+{
+  "margin": 0.03,
+  "mode": "conditional",
+  "model": {
+    "band_amiya": {
+      "band_fund": {
+        "bias": 0.08904109589041095,
+        "effects": {
+          "boss/boss_11": -0.0021170610211706025,
+          "boss/boss_12": -0.18493150684931506,
+          "boss/boss_13": 0.10517219306106763,
+          "boss/boss_2": 0.03321917808219177,
+          "boss/boss_3": 0.04234122042341218,
+          "boss/boss_4": -0.252703677000721,
+          "boss/boss_6": 0.07305936073059359,
+          "core/egirShip": -0.1216403676088087,
+          "core/iberiaShip": 0.06954365913101934,
+          "core/kazimierzShip": 0.040954180444024574,
+          "core/kjeragShip": -0.07628719886632031,
+          "core/lethaniaShip": 0.004625511474826506,
+          "core/sargonShip": 0.017330146180012856,
+          "core/siracusaShip": 0.03580510212451806,
+          "core/ursusShip": 0.013876534424479616,
+          "core/victoriaShip": 0.021139861322509727,
+          "core/yanShip": 0.030752964971959163,
+          "stage/act3autochess_m02": -0.03377420878601794,
+          "stage/act3autochess_m03": 0.02181243414120128,
+          "stage/act3autochess_m04": -0.04794520547945204,
+          "stage/act3autochess_m05": 0.10782147591692443,
+          "stage/act3autochess_m06": 0.11846778285134449,
+          "stage/act3autochess_m09": -0.0737818623200971,
+          "stage/act3autochess_m10": -0.0858798735511064,
+          "stage/act3autochess_m11": 0.12874978324952313,
+          "stage/act3autochess_m12": -0.10228310502283107
+        },
+        "families": [
+          "clock12",
+          "fixed6",
+          "regional6",
+          "supply3"
+        ],
+        "paired": 144
+      },
+      "band_jesica": {
+        "bias": 0.03767123287671233,
+        "effects": {
+          "boss/boss_11": 0.08511830635118307,
+          "boss/boss_12": -0.20236612702366125,
+          "boss/boss_13": 0.006753296632953514,
+          "boss/boss_2": 0.03424657534246578,
+          "boss/boss_3": 0.11581569115815693,
+          "boss/boss_4": -0.0704758471521269,
+          "boss/boss_6": -0.021974885844748857,
+          "core/egirShip": -0.01738338824345414,
+          "core/iberiaShip": 0.03720900916043374,
+          "core/kazimierzShip": 0.03960793575814836,
+          "core/kjeragShip": -0.06384034010392062,
+          "core/lethaniaShip": 0.001956947162426659,
+          "core/sargonShip": -0.05642640433943179,
+          "core/siracusaShip": 0.023439422524813392,
+          "core/ursusShip": -0.0038694182529798956,
+          "core/victoriaShip": 0.012979874852020953,
+          "core/yanShip": 0.03753332720419243,
+          "stage/act3autochess_m02": -0.04877184695323572,
+          "stage/act3autochess_m03": 0.0447312961011591,
+          "stage/act3autochess_m04": -0.1228486125746399,
+          "stage/act3autochess_m05": 0.0648475475033142,
+          "stage/act3autochess_m06": 0.0615169964485033,
+          "stage/act3autochess_m09": 0.03012831628229582,
+          "stage/act3autochess_m10": -0.016807165437302443,
+          "stage/act3autochess_m11": 0.004811860586093275,
+          "stage/act3autochess_m12": 0.018264840182648394
+        },
+        "families": [
+          "clock12",
+          "fixed6",
+          "regional6",
+          "supply3"
+        ],
+        "paired": 144
+      },
+      "band_pith": {
+        "bias": -0.03389830508474576,
+        "effects": {
+          "boss/boss_11": 0.04260192395785616,
+          "boss/boss_12": -0.2046004842615012,
+          "boss/boss_13": 0.07325481183567936,
+          "boss/boss_2": 0.016949152542372864,
+          "boss/boss_3": 0.0847457627118644,
+          "boss/boss_4": -0.06910039113428944,
+          "boss/boss_6": -0.06910039113428944,
+          "core/egirShip": -0.03300624442462088,
+          "core/iberiaShip": 0.019810697776799432,
+          "core/kazimierzShip": 0.08904273096204342,
+          "core/kjeragShip": -0.02887633396107974,
+          "core/lethaniaShip": -0.004047558816089077,
+          "core/sargonShip": -0.11529608704749951,
+          "core/siracusaShip": 0.09611671315168413,
+          "core/ursusShip": 0.03286482017362543,
+          "core/victoriaShip": -0.04411125597566279,
+          "core/yanShip": -0.037717832418238256,
+          "stage/act3autochess_m02": -0.0748587570621469,
+          "stage/act3autochess_m03": -0.05223106191629194,
+          "stage/act3autochess_m04": -0.028031290743155142,
+          "stage/act3autochess_m05": 0.048891786179921765,
+          "stage/act3autochess_m06": 0.054415700267618196,
+          "stage/act3autochess_m09": 0.008993427879626426,
+          "stage/act3autochess_m10": 0.05122410546139359,
+          "stage/act3autochess_m11": -0.00963775340644733,
+          "stage/act3autochess_m12": 0.004842615012106538
+        },
+        "families": [
+          "clock12",
+          "regional6"
+        ],
+        "paired": 57
+      },
+      "band_survive": {
+        "bias": -0.06493506493506493,
+        "effects": {
+          "boss/boss_11": -0.06122448979591836,
+          "boss/boss_12": 0.024350649350649352,
+          "boss/boss_13": -0.049107142857142884,
+          "boss/boss_2": 0.036702428006775825,
+          "boss/boss_3": 0.024350649350649345,
+          "boss/boss_4": -0.05287569573283858,
+          "boss/boss_6": 0.08556149732620318,
+          "core/egirShip": 0.00027631942525558614,
+          "core/iberiaShip": -0.012737262737262752,
+          "core/kazimierzShip": 0.015204307887234689,
+          "core/kjeragShip": -0.07550588945937782,
+          "core/lethaniaShip": -0.006111535523300212,
+          "core/sargonShip": -0.022868435911914196,
+          "core/siracusaShip": 0.04282951091461729,
+          "core/ursusShip": -0.01749271137026241,
+          "core/victoriaShip": 0.00027631942525557606,
+          "core/yanShip": 0.02245670995670994,
+          "stage/act3autochess_m02": 0.01411631846414455,
+          "stage/act3autochess_m03": -0.021818181818181816,
+          "stage/act3autochess_m04": -0.048237476808905395,
+          "stage/act3autochess_m05": 0.09690309690309691,
+          "stage/act3autochess_m06": 0.057260920897284524,
+          "stage/act3autochess_m09": 0.024630541871921183,
+          "stage/act3autochess_m10": 0.016233766233766225,
+          "stage/act3autochess_m11": -0.07402597402597401,
+          "stage/act3autochess_m12": -0.0670995670995671
+        },
+        "families": [
+          "fixed6",
+          "regional6"
+        ],
+        "paired": 69
+      }
+    },
+    "band_jesica": {
+      "band_fund": {
+        "bias": 0.029850746268656716,
+        "effects": {
+          "boss/boss_1": -0.06677140612725846,
+          "boss/boss_12": -0.0027137042062415195,
+          "boss/boss_17": -0.0027137042062415195,
+          "boss/boss_7": 0.06396588486140722,
+          "core/egirShip": -0.01338136901698405,
+          "core/iberiaShip": -0.013092432573972248,
+          "core/kazimierzShip": 0.025908194874683196,
+          "core/kjeragShip": 0.03171641791044776,
+          "core/lethaniaShip": 0.0269804822043628,
+          "core/sargonShip": 0.022921108742004242,
+          "core/siracusaShip": -0.047558816089046316,
+          "core/ursusShip": 0.005754360726488037,
+          "core/victoriaShip": -0.01112086625695054,
+          "core/yanShip": 0.02110138960370562,
+          "stage/act3autochess_m02": -0.05298507462686568,
+          "stage/act3autochess_m03": -0.09344581440622975,
+          "stage/act3autochess_m04": 0.04701492537313433,
+          "stage/act3autochess_m05": -0.0042643923240938165,
+          "stage/act3autochess_m06": -0.0036403349108117943,
+          "stage/act3autochess_m09": -0.005427408412483039,
+          "stage/act3autochess_m10": 0.09097370291400143,
+          "stage/act3autochess_m11": -0.0015710919088766692,
+          "stage/act3autochess_m12": 0.0433546552949538
+        },
+        "families": [
+          "clock12",
+          "fixed6",
+          "pivot"
+        ],
+        "paired": 26
+      },
+      "band_ursus": {
+        "bias": -0.23333333333333334,
+        "effects": {
+          "boss/boss_1": 0.011111111111111112,
+          "boss/boss_12": -0.013043478260869563,
+          "boss/boss_17": 0.03043478260869565,
+          "boss/boss_7": -0.09305555555555552,
+          "core/egirShip": 0.0066666666666666775,
+          "core/iberiaShip": -0.07599999999999998,
+          "core/kazimierzShip": -0.05849056603773582,
+          "core/kjeragShip": -0.04149659863945576,
+          "core/lethaniaShip": -0.08888888888888886,
+          "core/sargonShip": 0.004000000000000019,
+          "core/siracusaShip": -0.07160493827160491,
+          "core/ursusShip": -0.049122807017543825,
+          "core/victoriaShip": -0.06410256410256408,
+          "core/yanShip": 0.09245283018867925,
+          "stage/act3autochess_m02": 0.023333333333333334,
+          "stage/act3autochess_m03": 0.04242424242424243,
+          "stage/act3autochess_m04": -0.02072072072072072,
+          "stage/act3autochess_m05": -0.07666666666666666,
+          "stage/act3autochess_m06": -0.04471544715447154,
+          "stage/act3autochess_m09": 0.0022222222222222266,
+          "stage/act3autochess_m10": 0.03333333333333334,
+          "stage/act3autochess_m11": 0.012280701754385965,
+          "stage/act3autochess_m12": -0.06910569105691056
+        },
+        "families": [
+          "clock12",
+          "pivot"
+        ],
+        "paired": 24
+      },
+      "band_weakness": {
+        "bias": -0.21666666666666667,
+        "effects": {
+          "boss/boss_1": 0.07222222222222223,
+          "boss/boss_12": -0.015217391304347825,
+          "boss/boss_17": 0.02826086956521739,
+          "boss/boss_7": -0.12361111111111106,
+          "core/egirShip": -0.000303030303030306,
+          "core/iberiaShip": -0.102,
+          "core/kazimierzShip": -0.04622641509433961,
+          "core/kjeragShip": -0.0064625850340135965,
+          "core/lethaniaShip": -0.05277777777777776,
+          "core/sargonShip": -0.08199999999999999,
+          "core/siracusaShip": -0.022839506172839502,
+          "core/ursusShip": -0.04561403508771927,
+          "core/victoriaShip": -0.012820512820512818,
+          "core/yanShip": 0.04811320754716982,
+          "stage/act3autochess_m02": 0.021666666666666667,
+          "stage/act3autochess_m03": -0.006060606060606059,
+          "stage/act3autochess_m04": -0.02117117117117117,
+          "stage/act3autochess_m05": -0.07833333333333334,
+          "stage/act3autochess_m06": 0.02642276422764228,
+          "stage/act3autochess_m09": -0.0011111111111111122,
+          "stage/act3autochess_m10": 0.03095238095238096,
+          "stage/act3autochess_m11": 0.011403508771929825,
+          "stage/act3autochess_m12": -0.07113821138211383
+        },
+        "families": [
+          "clock12",
+          "pivot"
+        ],
+        "paired": 24
+      }
+    }
+  },
+  "protected": [
+    "band_mech",
+    "band_siracusa"
+  ]
+}

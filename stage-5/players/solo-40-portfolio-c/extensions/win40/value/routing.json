@@ -1,0 +1,79 @@
+{
+  "bias": -0.078125,
+  "boss": {
+    "boss_1": 0.21224,
+    "boss_6": -0.0483,
+    "boss_7": 0.31534,
+    "boss_11": -0.07639,
+    "boss_17": 0.125,
+    "boss_13": -0.0483,
+    "boss_2": -0.23549,
+    "boss_3": -0.12109,
+    "boss_4": -0.1875,
+    "boss_12": 0.04557
+  },
+  "stage": {
+    "act3autochess_m12": -0.01296,
+    "act3autochess_m09": 0.01143,
+    "act3autochess_m04": 0.05977,
+    "act3autochess_m05": -0.04931,
+    "act3autochess_m06": -0.03735,
+    "act3autochess_m03": 0.03779,
+    "act3autochess_m02": 0.01453,
+    "act3autochess_m10": 0.00977,
+    "act3autochess_m11": -0.02708
+  },
+  "ursus": {
+    "band": "auto",
+    "focus": "lethaniaShip",
+    "arcane": 1.35,
+    "shopFocus": 0.9,
+    "learnField": 6,
+    "search": {
+      "normal": {
+        "mutations": 1,
+        "confirm": 0
+      },
+      "boss": {
+        "mutations": 10,
+        "confirm": 3
+      }
+    },
+    "gear": 0.65,
+    "useSkills": true,
+    "focusStrength": 1.15,
+    "routeOrder": [
+      "ursusShip",
+      "yanShip",
+      "lethaniaShip",
+      "kjeragShip"
+    ]
+  },
+  "arcane": {
+    "band": "auto",
+    "focus": "lethaniaShip",
+    "arcane": 2.0,
+    "shopFocus": 0.9,
+    "learnField": 6,
+    "search": {
+      "normal": {
+        "mutations": 1,
+        "confirm": 0
+      },
+      "boss": {
+        "mutations": 10,
+        "confirm": 3
+      }
+    },
+    "gear": 0.65,
+    "useSkills": true,
+    "focusStrength": 1.15,
+    "routeOrder": [
+      "lethaniaShip",
+      "ursusShip",
+      "yanShip",
+      "kjeragShip"
+    ],
+    "preferredBand": "band_amiya"
+  }
+}

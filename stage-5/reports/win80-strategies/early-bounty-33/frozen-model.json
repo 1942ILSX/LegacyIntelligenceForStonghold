@@ -1,0 +1,390 @@
+{
+  "model": {
+    "field": "features",
+    "weights": {
+      "armor": -0.7800202673719918,
+      "arts": 0.9000797835389674,
+      "attack": -0.0030263150167480577,
+      "block": -0.08314403632025658,
+      "durability": -0.5396049509535628,
+      "earn/armor": -0.18522456091860093,
+      "earn/arts": 0.03704808974146842,
+      "earn/attack": -0.016741210925640695,
+      "earn/block": 0.7325867152388756,
+      "earn/durability": -0.19924459519870313,
+      "earn/flight": 0.008291947181264168,
+      "earn/gearMargin": 0.013674570608905022,
+      "earn/hp": 0.10204573665123828,
+      "earn/incoming": -0.2606910313076687,
+      "earn/n": 0.012130387859185379,
+      "earn/noSky": -0.42105525176975117,
+      "earn/pace": 0.09530645344064034,
+      "earn/physical": 0.040123900198058865,
+      "earn/resistance": 0.6189864890531244,
+      "earn/routeDamage": 0.206340649956798,
+      "earn/sky": 0.35974728851878457,
+      "earn/teamDamage": 0.09523232335613134,
+      "flight": 0.1855153917828891,
+      "gearMargin": -0.005213421893368973,
+      "hp": -0.03493337660266717,
+      "id/enemyeffect_10_4": -0.20850371195865586,
+      "id/enemyeffect_10_5": -0.3456102743191734,
+      "id/enemyeffect_10_6": 1.1696487060144403,
+      "id/enemyeffect_11_4": 0.1658465927805193,
+      "id/enemyeffect_11_5": -2.6764972865974697,
+      "id/enemyeffect_11_6": -0.6516210064444956,
+      "id/enemyeffect_12_4": 0.03646980829506051,
+      "id/enemyeffect_12_5": 0.643505130204495,
+      "id/enemyeffect_12_6": 0.3917816068199626,
+      "id/enemyeffect_12_9": 0.05803122994512211,
+      "id/enemyeffect_13_4": -0.09317697057288715,
+      "id/enemyeffect_13_5": 0.13369650845714057,
+      "id/enemyeffect_13_6": 0.4605393519463924,
+      "id/enemyeffect_13_9": -0.959802140390568,
+      "id/enemyeffect_14_4": -0.20380360964105396,
+      "id/enemyeffect_14_5": -0.921366254738893,
+      "id/enemyeffect_14_6": -0.004460696265468751,
+      "id/enemyeffect_15_4": 0.15236913497740412,
+      "id/enemyeffect_15_5": 0.43894785099606537,
+      "id/enemyeffect_15_6": -0.768880541465887,
+      "id/enemyeffect_17_1": 0.5600303730380544,
+      "id/enemyeffect_17_2": -0.3538871795785272,
+      "id/enemyeffect_17_3": 0.1958501880494056,
+      "id/enemyeffect_17_4": 0.3132660433530241,
+      "id/enemyeffect_17_5": -0.263076974106316,
+      "id/enemyeffect_17_6": -1.2246196381883,
+      "id/enemyeffect_17_7": 1.06610538788253,
+      "id/enemyeffect_18_1": 0.2536731004308624,
+      "id/enemyeffect_18_2": -0.32650691799238335,
+      "id/enemyeffect_18_3": 0.15871929359711043,
+      "id/enemyeffect_18_4": -0.5427357435587716,
+      "id/enemyeffect_18_5": 0.5587508979951075,
+      "id/enemyeffect_18_6": -0.13463660704185995,
+      "id/enemyeffect_18_7": 0.8286817941272642,
+      "id/enemyeffect_19_1": 0.5297828124368431,
+      "id/enemyeffect_19_2": 0.2374356929206912,
+      "id/enemyeffect_19_3": 0.8918717755704055,
+      "id/enemyeffect_19_4": -1.5266300403531194,
+      "id/enemyeffect_19_5": -1.719354618111657,
+      "id/enemyeffect_19_6": 1.5868943775368363,
+      "id/enemyeffect_20_1": 0.17624792646024953,
+      "id/enemyeffect_20_2": -0.3544421944437772,
+      "id/enemyeffect_20_3": 0.995507522677665,
+      "id/enemyeffect_20_4": -0.028107634483884078,
+      "id/enemyeffect_20_5": -0.28776907783261746,
+      "id/enemyeffect_20_6": 0.7062449891766908,
+      "id/enemyeffect_20_7": 0.8855910223964166,
+      "incoming": -0.3906495268930669,
+      "n": 0.0,
+      "noSky": -1.0723404425080585,
+      "nominal": 0.06065193929592857,
+      "pace": 0.46140445618677706,
+      "physical": -0.5394710224555628,
+      "resistance": 0.5845732956844529,
+      "routeDamage": 0.8993103342516778,
+      "sky": 0.9597603732428802,
+      "teamDamage": 0.46897076158305384
+    },
+    "margin": 0.5
+  },
+  "oof": {
+    "base": {
+      "pooled": {
+        "n": 144,
+        "eligible": 144,
+        "changed": 57,
+        "better": 34,
+        "worse": 19,
+        "gain": 0.3368055555555556,
+        "dcoins": 0.7222222222222222,
+        "dloss": 0.2569444444444444,
+        "totalOld": {
+          "coins": 309,
+          "loss": 158,
+          "u": 72.0
+        },
+        "totalNew": {
+          "coins": 413,
+          "loss": 195,
+          "u": 120.5
+        },
+        "oracleGain": 2.048611111111111,
+        "someBetterAlternative": 87,
+        "refusedAcrossAllThreeArms": 0,
+        "paired95": [
+          -0.11805555555555555,
+          0.7743055555555556
+        ],
+        "oneSided90Lower": 0.041666666666666664
+      },
+      "folds": [
+        {
+          "n": 32,
+          "eligible": 32,
+          "changed": 10,
+          "better": 2,
+          "worse": 6,
+          "gain": -0.453125,
+          "dcoins": 0.15625,
+          "dloss": 0.40625,
+          "totalOld": {
+            "coins": 80,
+            "loss": 40,
+            "u": 20.0
+          },
+          "totalNew": {
+            "coins": 85,
+            "loss": 53,
+            "u": 5.5
+          },
+          "oracleGain": 1.625,
+          "someBetterAlternative": 15,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 30,
+          "eligible": 30,
+          "changed": 12,
+          "better": 9,
+          "worse": 3,
+          "gain": 0.7166666666666667,
+          "dcoins": 0.6666666666666666,
+          "dloss": -0.03333333333333333,
+          "totalOld": {
+            "coins": 64,
+            "loss": 41,
+            "u": 2.5
+          },
+          "totalNew": {
+            "coins": 84,
+            "loss": 40,
+            "u": 24.0
+          },
+          "oracleGain": 2.0833333333333335,
+          "someBetterAlternative": 17,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 29,
+          "eligible": 29,
+          "changed": 11,
+          "better": 7,
+          "worse": 3,
+          "gain": 0.5172413793103449,
+          "dcoins": 0.9310344827586207,
+          "dloss": 0.27586206896551724,
+          "totalOld": {
+            "coins": 61,
+            "loss": 17,
+            "u": 35.5
+          },
+          "totalNew": {
+            "coins": 88,
+            "loss": 25,
+            "u": 50.5
+          },
+          "oracleGain": 2.1379310344827585,
+          "someBetterAlternative": 18,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 19,
+          "eligible": 19,
+          "changed": 10,
+          "better": 7,
+          "worse": 2,
+          "gain": 0.9473684210526315,
+          "dcoins": 0.9473684210526315,
+          "dloss": 0.0,
+          "totalOld": {
+            "coins": 34,
+            "loss": 32,
+            "u": -14.0
+          },
+          "totalNew": {
+            "coins": 52,
+            "loss": 32,
+            "u": 4.0
+          },
+          "oracleGain": 2.3684210526315788,
+          "someBetterAlternative": 15,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 34,
+          "eligible": 34,
+          "changed": 14,
+          "better": 9,
+          "worse": 5,
+          "gain": 0.25,
+          "dcoins": 1.0,
+          "dloss": 0.5,
+          "totalOld": {
+            "coins": 70,
+            "loss": 28,
+            "u": 28.0
+          },
+          "totalNew": {
+            "coins": 104,
+            "loss": 45,
+            "u": 36.5
+          },
+          "oracleGain": 2.161764705882353,
+          "someBetterAlternative": 22,
+          "refusedAcrossAllThreeArms": 0
+        }
+      ]
+    },
+    "features": {
+      "pooled": {
+        "n": 144,
+        "eligible": 144,
+        "changed": 62,
+        "better": 42,
+        "worse": 17,
+        "gain": 0.5763888888888888,
+        "dcoins": 0.8263888888888888,
+        "dloss": 0.16666666666666666,
+        "totalOld": {
+          "coins": 309,
+          "loss": 158,
+          "u": 72.0
+        },
+        "totalNew": {
+          "coins": 428,
+          "loss": 182,
+          "u": 155.0
+        },
+        "oracleGain": 2.048611111111111,
+        "someBetterAlternative": 87,
+        "refusedAcrossAllThreeArms": 0,
+        "paired95": [
+          0.11805555555555555,
+          1.0277777777777777
+        ],
+        "oneSided90Lower": 0.28125
+      },
+      "folds": [
+        {
+          "n": 32,
+          "eligible": 32,
+          "changed": 13,
+          "better": 7,
+          "worse": 6,
+          "gain": 0.046875,
+          "dcoins": 0.65625,
+          "dloss": 0.40625,
+          "totalOld": {
+            "coins": 80,
+            "loss": 40,
+            "u": 20.0
+          },
+          "totalNew": {
+            "coins": 101,
+            "loss": 53,
+            "u": 21.5
+          },
+          "oracleGain": 1.625,
+          "someBetterAlternative": 15,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 30,
+          "eligible": 30,
+          "changed": 15,
+          "better": 11,
+          "worse": 3,
+          "gain": 1.05,
+          "dcoins": 1.0,
+          "dloss": -0.03333333333333333,
+          "totalOld": {
+            "coins": 64,
+            "loss": 41,
+            "u": 2.5
+          },
+          "totalNew": {
+            "coins": 94,
+            "loss": 40,
+            "u": 34.0
+          },
+          "oracleGain": 2.0833333333333335,
+          "someBetterAlternative": 17,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 29,
+          "eligible": 29,
+          "changed": 10,
+          "better": 7,
+          "worse": 2,
+          "gain": 0.3448275862068966,
+          "dcoins": 0.7586206896551724,
+          "dloss": 0.27586206896551724,
+          "totalOld": {
+            "coins": 61,
+            "loss": 17,
+            "u": 35.5
+          },
+          "totalNew": {
+            "coins": 83,
+            "loss": 25,
+            "u": 45.5
+          },
+          "oracleGain": 2.1379310344827585,
+          "someBetterAlternative": 18,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 19,
+          "eligible": 19,
+          "changed": 8,
+          "better": 6,
+          "worse": 1,
+          "gain": 1.0,
+          "dcoins": 0.8421052631578947,
+          "dloss": -0.10526315789473684,
+          "totalOld": {
+            "coins": 34,
+            "loss": 32,
+            "u": -14.0
+          },
+          "totalNew": {
+            "coins": 50,
+            "loss": 30,
+            "u": 5.0
+          },
+          "oracleGain": 2.3684210526315788,
+          "someBetterAlternative": 15,
+          "refusedAcrossAllThreeArms": 0
+        },
+        {
+          "n": 34,
+          "eligible": 34,
+          "changed": 16,
+          "better": 11,
+          "worse": 5,
+          "gain": 0.6176470588235294,
+          "dcoins": 0.8823529411764706,
+          "dloss": 0.17647058823529413,
+          "totalOld": {
+            "coins": 70,
+            "loss": 28,
+            "u": 28.0
+          },
+          "totalNew": {
+            "coins": 100,
+            "loss": 34,
+            "u": 49.0
+          },
+          "oracleGain": 2.161764705882353,
+          "someBetterAlternative": 22,
+          "refusedAcrossAllThreeArms": 0
+        }
+      ]
+    }
+  },
+  "physicalMargin": 0.23958333333333326,
+  "physicalFoldWins": 4,
+  "registrationSHA": "cc2be6bb5bf3f01281d870f4a97a8946a1a7ceb28659f05280994a89acbfec86",
+  "fitSpecificationSHA": "f455305c1cbb42408c1b77f9fc21a6114f97ec94bf18db250f0fa5516d7e220f"
+}

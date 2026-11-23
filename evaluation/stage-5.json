@@ -1,0 +1,233 @@
+{
+  "panel": "fifth-reserved-acceptance",
+  "allSettled": false,
+  "groups": {
+    "natural": {
+      "band": "auto",
+      "starts": 512,
+      "settled": 510,
+      "technicalFailures": 2,
+      "wins": 376,
+      "winRate": 0.734375,
+      "wilson95": [
+        0.6944757724650277,
+        0.7707834576648713
+      ],
+      "reached14": 463
+    }
+  },
+  "outcomes": {
+    "naturalAtLeast80": false,
+    "fiveActuallyChosenInCensus": true,
+    "allFiveEvaluatedAssignmentsAtLeast80": false,
+    "allFivePreferredAtLeast80": false,
+    "allFiveNaturalConditionalAtLeast80": false,
+    "uniformAverageAtLeast50": false,
+    "observedHandoffs": 0,
+    "handoffProtocolVerified": false
+  },
+  "uniformAssigned": {
+    "wins": 0,
+    "starts": 0,
+    "equalWeightRate": null,
+    "pooledWilson95": null,
+    "strategiesAtLeastHalf": 0
+  },
+  "preferredAtLeast80": 0,
+  "selectionCounts": {
+    "band_mech": 230,
+    "band_fund": 165,
+    "band_jesica": 48,
+    "band_siracusa": 46,
+    "band_amiya": 21
+  },
+  "openingCensus": {
+    "publicOpenings": 2048,
+    "actualSelectionCounts": {
+      "band_siracusa": 178,
+      "band_mech": 993,
+      "band_fund": 629,
+      "band_amiya": 87,
+      "band_jesica": 161
+    },
+    "preferred": [
+      "band_mech",
+      "band_fund",
+      "band_siracusa",
+      "band_jesica",
+      "band_amiya"
+    ],
+    "unusedAdditionalNominations": []
+  },
+  "naturalConditionalByActualStrategy": {
+    "band_mech": {
+      "starts": 230,
+      "wins": 191,
+      "reached14": 212,
+      "winRate": 0.8304347826086956,
+      "wilson95": [
+        0.7766052220138733,
+        0.8734078285656277
+      ]
+    },
+    "band_fund": {
+      "starts": 165,
+      "wins": 125,
+      "reached14": 149,
+      "winRate": 0.7575757575757576,
+      "wilson95": [
+        0.686809095996645,
+        0.8166217591600154
+      ]
+    },
+    "band_jesica": {
+      "starts": 48,
+      "wins": 35,
+      "reached14": 42,
+      "winRate": 0.7291666666666666,
+      "wilson95": [
+        0.5900303501775979,
+        0.8343404237254333
+      ]
+    },
+    "band_siracusa": {
+      "starts": 46,
+      "wins": 14,
+      "reached14": 39,
+      "winRate": 0.30434782608695654,
+      "wilson95": [
+        0.19079840802767498,
+        0.44805646448407244
+      ]
+    },
+    "band_amiya": {
+      "starts": 21,
+      "wins": 11,
+      "reached14": 21,
+      "winRate": 0.5238095238095238,
+      "wilson95": [
+        0.323695345828449,
+        0.7165599389846538
+      ]
+    }
+  },
+  "naturalByBoss": {
+    "boss_3": {
+      "starts": 53,
+      "reached14": 50,
+      "wins": 42
+    },
+    "boss_6": {
+      "starts": 44,
+      "reached14": 42,
+      "wins": 34
+    },
+    "boss_2": {
+      "starts": 49,
+      "reached14": 45,
+      "wins": 42
+    },
+    "boss_1": {
+      "starts": 46,
+      "reached14": 41,
+      "wins": 37
+    },
+    "boss_11": {
+      "starts": 36,
+      "reached14": 34,
+      "wins": 32
+    },
+    "boss_12": {
+      "starts": 59,
+      "reached14": 53,
+      "wins": 41
+    },
+    "boss_13": {
+      "starts": 60,
+      "reached14": 55,
+      "wins": 50
+    },
+    "boss_17": {
+      "starts": 61,
+      "reached14": 51,
+      "wins": 21
+    },
+    "boss_4": {
+      "starts": 53,
+      "reached14": 49,
+      "wins": 38
+    },
+    "boss_7": {
+      "starts": 49,
+      "reached14": 43,
+      "wins": 39
+    }
+  },
+  "handoffByRound": {},
+  "handoffComparedWithDonor": {},
+  "firstDispatchedCommand": {
+    "management": {
+      "n": 76463,
+      "medianMs": 1.326,
+      "p95Ms": 6.791,
+      "p99Ms": 230.446,
+      "maxMs": 464.2,
+      "over500ms": 0
+    },
+    "openingFirstDecision": {
+      "n": 510,
+      "medianMs": 0.59,
+      "p95Ms": 2.662,
+      "p99Ms": 3.859,
+      "maxMs": 6.059,
+      "over500ms": 0
+    },
+    "subsequentDecisions": {
+      "n": 86912,
+      "medianMs": 1.575,
+      "p95Ms": 177.698,
+      "p99Ms": 341.339,
+      "maxMs": 476.394,
+      "over500ms": 0
+    },
+    "normalFormation": {
+      "n": 10419,
+      "medianMs": 7.165,
+      "p95Ms": 305.14,
+      "p99Ms": 402.931,
+      "maxMs": 420.674,
+      "over500ms": 0
+    },
+    "bossFormation": {
+      "n": 540,
+      "medianMs": 315.618,
+      "p95Ms": 475.071,
+      "p99Ms": 475.405,
+      "maxMs": 476.394,
+      "over500ms": 0
+    }
+  },
+  "rejectedActionCounts": {
+    "BAD_TARGET": 16
+  },
+  "technicalLedger": {
+    "natural": {
+      "1562081408": {
+        "log": "part-00129.err",
+        "sha256": "71243d556c43b96c1787c44f5772075b64acecd2e39e5923c0814a728c076252",
+        "officialOutcome": null,
+        "reason": "Repeatable error reported by the official simulator"
+      },
+      "1562707077": {
+        "log": "part-00130.err",
+        "sha256": "d70ff9e55c3ee97781efcfe5506b7bda83e8b55087a0e311a66c957edc960d15",
+        "officialOutcome": null,
+        "reason": "Repeatable detached geometry forecast failure in the independent player"
+      }
+    }
+  },
+  "resources": {
+    "minimumFreeGiB": 7.067,
+    "maximumGameProcessesRssGiB": 6.992
+  }
+}

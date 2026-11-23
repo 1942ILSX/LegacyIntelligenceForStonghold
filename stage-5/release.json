@@ -1,0 +1,59 @@
+{
+  "name": "solo-lv20-stage-4-1-yan-cocoon-candidate",
+  "runner": "players/win80-combat/road-and-boss-student-mux-referee.mjs",
+  "player": "players/win80-combat/yan-cocoon-player.mjs",
+  "options": {
+    "band": "auto",
+    "focus": "lethaniaShip",
+    "arcane": 2.0,
+    "shopFocus": 0.9,
+    "learnField": 6,
+    "search": {
+      "normal": {
+        "mutations": 1,
+        "confirm": 0
+      },
+      "boss": {
+        "mutations": 10,
+        "confirm": 3
+      }
+    },
+    "gear": 0.65,
+    "useSkills": true,
+    "focusStrength": 1.15,
+    "routeOrder": [
+      "lethaniaShip",
+      "ursusShip",
+      "yanShip",
+      "kjeragShip"
+    ],
+    "economy": {
+      "items": 1,
+      "lock": true,
+      "supply": 1
+    },
+    "normalForecastStride": 1,
+    "bossForecastStride": 3,
+    "normalBudgetMs": 420,
+    "bossBudgetMs": 475,
+    "publicForecastCommands": false,
+    "stageMatrix": "paced",
+    "stageUrsus": "band_jesica",
+    "stageLeithBands": [
+      "band_amiya"
+    ],
+    "budgetedCombat": {
+      "normalLimit": 5,
+      "bossLimit": 10
+    },
+    "earlyBounty": {
+      "certificateSha": "367deeebc0d825a39a6e980df4eea73f62ee724c04a4c6bac8f02ff2c12129b0",
+      "weightsSha": "dac43f4fc120b76086f65d01152de973d7f7d96aa09e75a306f97805164b289a",
+      "playerSha": "b750f0f5f73b9fedef51f05f0cffb511111f1a24d7cb554b53abdf4dc384abdd"
+    },
+    "openingPortfolio": true,
+    "campaignProtectedBands": []
+  },
+  "maxThreads": 4,
+  "baseArchiveSha256": "314d99a6fad56c9f0f1df7a73320aa4b13391d12d7d805d2b728ce361687b032"
+}

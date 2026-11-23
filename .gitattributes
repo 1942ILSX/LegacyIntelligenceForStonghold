@@ -1,0 +1,2 @@
+# Preserve the bytes recorded in the standalone release manifest on all platforms.
+stage-5/** -text
